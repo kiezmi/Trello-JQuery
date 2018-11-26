@@ -1,0 +1,76 @@
+header {
+    display: block;
+    /* width: 100vh; */
+    min-height: 3em;
+}
+
+.addListWrapper {
+    /* display: flex;
+    justify-content: right;
+    flex-direction: row-reverse */
+    text-align: right;
+
+}
+
+
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 300;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    display: block;
+    background-image: url(./fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    border-top: 0;
+    height: 100vH;
+    position: relative;
+    overflow: auto
+}
+
+section {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list {
+    padding: 1em;
+    margin: 1%;
+    background: rgb(80, 212, 80);
+    color: rgb(3, 19, 3);
+}
+
+.task {
+    background-color: green;
+    color: aqua;
+    padding: 1em;
+    margin: 1%;
+}
+.listHeader{
+    display: flex;
+    align-items: center;
+
+}
+.listHeader h4{
+flex: 1;
+}
